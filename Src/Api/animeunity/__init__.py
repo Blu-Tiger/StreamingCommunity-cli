@@ -26,8 +26,10 @@ def search():
 
         if select_title.type == 'Movie':
             download_film(select_title)
+
         else:
             download_series(select_title)
+            
     else:
         console.print(f"\n[red]Nothing matching was found for[white]: [purple]{string_to_search}")
 
